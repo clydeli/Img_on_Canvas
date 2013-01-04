@@ -1,0 +1,19 @@
+{
+  "name": "Force Redraw IMG on HTML5 Canvas (beta)",
+  "version": "0.1.425.2",
+  "description": "Redraw IMG elements on HTML5 Canvas, forcing GPU to handle the work if you have GPU acceleration enabled.",
+  "background_page": "background.html",
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*", "file:///*/*"],
+      "js": ["jquery-1.7.2.min.js"]
+    }
+  ],
+  "permissions": [
+    "tabs", "http://*/*", "https://*/*", "file://*/*"
+  ],
+  "browser_action": {
+      "default_title": "Force Redraw IMG on Canvas",
+      "default_icon": "icon.png"
+  }
+}
