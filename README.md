@@ -1,2 +1,7 @@
-Force_Redraw_IMG_on_HTML5_Canvas
+Force Redraw IMG on HTML5 Canvas
 ================================
+
+Intro
+---------------------
+
+This is the source of Chrome Extension: Force Redraw IMG on HTML5 Canvas
